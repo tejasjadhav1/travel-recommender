@@ -1,0 +1,13 @@
+:root {
+  --primary: #1ed760;
+  --secondary: #43454c;
+  --white: #ffffff;
+  --background: #121212;
+  --input-background: #191c21;
+}
+
+.App {
+  color: var(--white);
+  min-height: 100vh;
+  height: 100%;
+}

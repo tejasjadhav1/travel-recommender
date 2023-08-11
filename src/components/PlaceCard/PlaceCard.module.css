@@ -1,0 +1,26 @@
+.placecard {
+  box-sizing: border-box;
+  width: 17rem;
+  height: 15rem;
+  border: 1px solid var(--primary);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.placecard__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.placecard__description {
+  font-size: 1rem;
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 8; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}

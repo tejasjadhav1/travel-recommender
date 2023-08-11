@@ -1,0 +1,47 @@
+.navbar {
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: transparent;
+  color: white;
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  height: 4rem;
+}
+
+.brand_name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary);
+  font-family: cursive;
+}
+
+.right_container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav_link {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--primary);
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.nav_link:hover {
+  filter: brightness(1.4);
+  transition: all 0.3s ease-in-out;
+}
